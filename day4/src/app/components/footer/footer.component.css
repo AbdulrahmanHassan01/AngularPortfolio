@@ -1,0 +1,44 @@
+.footer-container {
+    background-color: #000;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-email {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-email a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-email a:hover {
+    color: #ddd; 
+  }
+  
+  .footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-link {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #ddd; 
+  }
+  

@@ -1,0 +1,42 @@
+.portfolio-container {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    padding: 40px;
+  }
+  
+  .portfolio-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    flex: 1 1 calc(33.333% - 20px); 
+    background-color: #e9ecef; 
+    color: #343a40; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card.dark-bg {
+    background-color: #343a40;
+    color: #e9ecef; 
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+  }
+  
